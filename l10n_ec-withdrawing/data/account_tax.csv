@@ -1,0 +1,43 @@
+name	amount	sec_name	type_tax_use	applicable_type	tax_group	type
+VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAV TAR 12%	0.12	12	sale	true	vat	percent
+VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%	0.12	12	sale	true	vat	percent
+VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAV TARIFA 0% NO CT	0	0	sale	true	vat0	percent
+VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% NO CT	0	0	sale	true	vat0	percent
+VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% CON CT	0	0	sale	true	vat0	percent
+VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% CON CT	0	0	sale	true	vat0	percent
+EXPORTACIONES DE BIENES			sale	true	vat	percent
+EXPORTACIONES DE SERVICIOS			sale	true	vat	percent
+TRANSFERENCIAS NO OBJETO DE IVA			sale	true	novat	percent
+ADQ. Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAV TARIFA 12% (CON CT)	0.12	12	purchase	true	vat	percent
+ADQ. LOCALES DE ACTIVOS FIJOS GRAV. TARIFA 12% (CON CT)	0.12	12	purchase	true	vat	percent
+OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN CT)	0.12	12	purchase	true	vat	percent
+IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12%	0.12	12	purchase	true	vat	percent
+IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12%	0.12	12	purchase	true	vat	percent
+IMPORTACIONES DE BIENES (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%	0	0	purchase	true	vat0	percent
+ADQUISICIONES Y PAGOS (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%	0	0	purchase	true	vat0	percent
+ADQUISICIONES NO OBJETO DE IVA	0	0	purchase	true	novat	percent
+RETENCIÓN DEL 30%	-0.3	30	all	true	ret_vat_b	percent
+RETENCIÓN DEL 70%	-0.7	70	all	true	ret_vat_srv	percent
+RETENCIÓN DEL 100%	-0.12	100	all	true	ret_vat_srv	percent
+RET. EN RELACIÓN DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGR	0		all	true	ret_ir	percent
+RET. HONORARIOS PROFESIONALES 	-0.1	1	all	true	ret_ir	percent
+RET. PREDOMINA EL INTELECTO	-0.1	1	all	true	ret_ir	percent
+RET. PREDOMINA MANO DE OBRA	-0.02	2	all	true	ret_ir	percent
+RET. ENTRE SOCIEDADES	-0.02	2	all	true	ret_ir	percent
+RET. PUBLICIDAD Y COMUNICACIÓN	-0.01	1	all	true	ret_ir	percent
+RET. TRANS. PRIVADO DE PASAJEROS O SERV. PÚBLICO O PRIVADO DE CARGA	-0.01	1	all	true	ret_ir	percent
+RET. TRANSFERENCIA DE BIENES MUEBLES DE NATURALEZA CORPORAL	-0.01	1	all	true	ret_ir	percent
+RET. ARRENDAMIENTO MERCANTIL	-0.01	1	all	true	ret_ir	percent
+RET. ARRENDAMIENTO BIENES INMUEBLES	-0.08	8	all	true	ret_ir	percent
+RET. SEGUROS Y REASEGUROS (PRIMAS Y CESIONES)	-0.01	1	all	true	ret_ir	percent
+RET. RENDIMIENTOS FINANCIEROS	-0.02	2	all	true	ret_ir	percent
+RIFAS	-0.15	15	all	true	ret_ir	percent
+RET. VENTA DE COMBUSTIBLES A COMERCIALIZADORAS	-0.002		all	true	ret_ir	percent
+RET. VENTA DE COMBUSTIBLES A DISTRIBUIDORES	-0.003		all	true	ret_ir	percent
+RET. PAGOS DE BIENES O SERVICIOS NO SUJETOS A RETENCIÓN	0		all	true	no_ret_ir	percent
+RET. APLICABLES EL 1%	-0.01	1	all	true	ret_ir	percent
+RET. APLICABLES EL 2%	-0.02	2	all	true	ret_ir	percent
+RET. APLICABLES EL 8%	-0.08	8	all	true	ret_ir	percent
+RET. APLICABLES EL 25%	-0.25	25	all	true	ret_ir	percent
+RET. CON CONVENIO DE DOBLE TRIBUTACIÓN	0	0	all	true	ret_ir	percent
+RE.T PAGOS AL EXTERIOR  NO SUJETOS A RETENCIÓN	0	0	all	true	ret_ir	percent
